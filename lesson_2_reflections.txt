@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+A git metadata is created to start keeping track of your files. If you don't initialiaze a repository won't be created and files won't be tracked
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It's the middle area where you put only what you would like to be committed to your repository, it could be said it's kind of a check list of what you want to commit
