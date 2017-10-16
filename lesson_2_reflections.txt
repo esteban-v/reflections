@@ -3,3 +3,19 @@ A git metadata is created to start keeping track of your files. If you don't ini
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It's the middle area where you put only what you would like to be committed to your repository, it could be said it's kind of a check list of what you want to commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can use git diff --staged to compare file versions in your staging area and most recent commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to implemet a new experimental feature leaving your master branch files untouched because you wouldn't know for sure if your new feature will owrk or not
+
+How do the diagrams help you visualize the branch structure?
+They give you a clearer view of all branches and changes made on each one
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result will be having the changes from both branches merged and all their commits become part of the same timeline. The diagram helps visualize your main branch and your other branches
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: when simply lines are added or deleted automatic merging is fast and efficient
+Cons: when conflict emerges you need to spend more time carefully understanding that changes need to be made
