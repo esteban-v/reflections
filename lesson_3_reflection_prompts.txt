@@ -11,3 +11,6 @@ Branches are parallel lines of your main line
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 That will give you the base to later know what has changed
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+It would be really hard to collaborate without git and/or github, it would be way harder to email copies of your files back and forth
